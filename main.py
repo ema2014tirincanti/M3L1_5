@@ -3,7 +3,12 @@ from random import choice
 
 app = Flask("Ciao guys")
 
-lista_fatti = []
+lista_fatti = [
+    "Il miele non scade mai.",
+    "Le banane sono bacche, mentre le fragole no.",
+    "I polpi hanno tre cuori.",
+    "La Grande Muraglia Cinese non è visibile dallo spazio."
+]
 coin = ["heads", "tails"]
 
 @app.route("/")
